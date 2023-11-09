@@ -1,0 +1,145 @@
+/* Pagina web en general i encapçalaments*/
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  letter-spacing: 5px;
+}
+
+h2 {
+  margin-top: 80px;
+  text-transform: uppercase;
+  text-decoration: underline solid #829170;
+  font-weight: 4px;
+}
+
+h2::first-letter {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* Capçalera */
+
+header {
+  text-align: center;
+}
+
+nav a {
+  color: #829170;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Secció "El restaurant" */
+
+#restaurant p {
+  line-height: 2;
+}
+
+mark {
+  background-color: #d7dbd2e0;
+}
+
+/* Secció "Oferta gastronòmica" */
+
+dl {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+dt {
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+/* Secció "Reserves" */
+
+input,
+select,
+textarea {
+  border: 1.5px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+input[type="text"]
+  input[type="tel"]
+  input[type="email"]
+  input[type="number"]
+  input[type="date"]
+  input[type="time"]
+  select:focus
+  textarea,
+:focus {
+  background-color: #d7dbd2e0;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #d7dbd2e0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Secció "L'equip" */
+
+#equip figure {
+  display: inline-block;
+}
+
+/* Peu de pàgina */
+
+footer address {
+  margin-bottom: 40px;
+}
+
+footer a {
+  color: #829170;
+}
+
+.copyright,
+.inici {
+  margin-bottom: 40px;
+}
+
+.copyright strong {
+  font-size: 12px;
+}
+
+.copyright small {
+  font-size: 10px;
+}
+
+details > ul {
+  font-size: 14px;
+}
+
+details > ul > li {
+  margin-bottom: 10px;
+}
