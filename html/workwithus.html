@@ -20,11 +20,6 @@
             text-decoration: underline;
         }
 
-        form {
-            background-color: white;
-            padding: 25px;
-        }
-
         fieldset {
             border: 3px solid black;
         }
@@ -40,6 +35,15 @@
         }
     </style>
 
+    <script>
+        function avisRecepcioNoDisponible(event) {
+            alert("En aquests moments no està disponible la recepció de currículums per a càrrecs vacants. " +
+                "Si us plau, contacti amb info@restaurantorenga.cat o truqui al número de telèfon +34 930 00 000 per a més informació.");
+
+            event.preventDefault();
+        }
+    </script>
+
 </head>
 
 <body>
@@ -47,7 +51,7 @@
         <header>
             <h1>Busquem personal per treballar al <a href="index.html">Restaurant Orenga</a></h1>
         </header>
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data" style="background-color: white; padding: 25px;">
             <fieldset>
                 <legend>Omple el formulari i ens posarem en contacte el més aviat possible.</legend>
 
@@ -111,15 +115,6 @@
             </fieldset>
         </form>
     </main>
-
-    <script>
-        function avisRecepcioNoDisponible(event) {
-            alert("En aquests moments no està disponible la recepció de currículums per a càrrecs vacants. " +
-                "Si us plau, contacti amb info@restaurantorenga.cat o truqui al número de telèfon +34 930 00 000 per a més informació.");
-
-            event.preventDefault();
-        }
-    </script>
 
 </body>
 
