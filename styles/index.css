@@ -20,7 +20,7 @@ h2 {
   margin-top: 80px;
   text-transform: uppercase;
   text-decoration: underline solid #829170;
-  font-weight: 4px;
+  text-decoration-thickness: 4px;
 }
 
 h2::first-letter {

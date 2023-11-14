@@ -7,6 +7,7 @@
     <title>Restaurant Orenga</title>
 
     <link rel="stylesheet" href="/styles/index.css">
+    <script src="/scripts/index.js" defer></script>
 
 </head>
 
@@ -125,6 +126,8 @@
                         <label for="comensals">Número de comensals</label>
                         <input type="number" id="comensals" name="comensals" min="1" max="50" step="1" value="4"
                             required>
+                        <small> <span>(El preu total aproximat a 50€/persona seria de </span> <output
+                                for="numeroComensals" id="preuAproximat">200</output> <span>€)</span> </small>
                     </p>
 
                     <span>Hi ha un o més d'un comensal menor de 5 anys?</span>

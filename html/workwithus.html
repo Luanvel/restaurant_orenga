@@ -106,11 +106,21 @@
                     <input type="checkbox" id="acceptaPolitica" name="acceptaPolitica" required>
                 </p>
 
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" onclick="avisRecepcioNoDisponible(event)">
 
             </fieldset>
         </form>
     </main>
+
+    <script>
+        function avisRecepcioNoDisponible(event) {
+            alert("En aquests moments no està disponible la recepció de currículums per a càrrecs vacants. " +
+                "Si us plau, contacti amb info@restaurantorenga.cat o truqui al número de telèfon +34 930 00 000 per a més informació.");
+
+            event.preventDefault();
+        }
+    </script>
+
 </body>
 
 </html>
